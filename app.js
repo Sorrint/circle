@@ -88,11 +88,11 @@ class roundMenu {
 const newMenu = new roundMenu(300);
 newMenu.render();
 
-// const newMenu2= new roundMenu(360);
-// newMenu2.render()
+const newMenu2= new roundMenu(360);
+newMenu2.render()
 
-// const newMenu3 =new roundMenu(300);
-// newMenu3.render();
+const newMenu3 =new roundMenu(300);
+newMenu3.render();
 
 function random(min, max) {
   return Math.round(min - 0.5 + Math.random() * (max - min + 1));
